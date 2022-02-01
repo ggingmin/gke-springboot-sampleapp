@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: sampleapp
-        image: us-central1-docker.pkg.dev/feisty-filament-335909/sampleapp-repo/sampleapp-gke:latest
+        image: us-central1-docker.pkg.dev/smiling-rhythm-339614/sampleapp-repo/sampleapp-gke:latest
         ports:
         - containerPort: 8080
         env:
