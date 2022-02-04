@@ -16,7 +16,7 @@ spec:
       - name: sampleapp
         image: us-central1-docker.pkg.dev/smiling-rhythm-339614/sampleapp-repo/sampleapp-gke:latest
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
         env:
           - name: PORT
-            value: "8080"
+            value: "8081"

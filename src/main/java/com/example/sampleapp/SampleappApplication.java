@@ -16,7 +16,7 @@ public class SampleappApplication {
     class SampleController {
             @GetMapping("/")
             String sample() {
-                    return "Welcome to K8S!";
+                    return "본 Spring Boot 어플리케이션은 GKE 클러스터에 배포되었습니다.";
             }
     }
 
